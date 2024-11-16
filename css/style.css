@@ -3421,7 +3421,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #00204a; }
+  background-color: #000; }
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
@@ -9208,19 +9208,19 @@ textarea.form-control-lg {
   .site-nav h1, .site-nav .h1 {
     margin: 0;
     padding: 0;
-    font-size: 24px; }
+    font-size: 34px; }
   .site-nav .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-nav .site-navigation .site-menu > li {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
         font-size: 14px;
-        padding: 10px 15px;
+        padding: 15px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.5); }
+        color: #000; }
         .site-nav .site-navigation .site-menu > li > a:hover {
-          color: #fff; }
+          color: #ccc; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
         padding: 6px 20px;
         border: 2px solid rgba(0, 0, 0, 0.1);
@@ -9231,7 +9231,7 @@ textarea.form-control-lg {
           background: #00204a;
           border-color: #00204a; }
       .site-nav .site-navigation .site-menu > li.active > a {
-        color: #fff; }
+        color: #00204a; }
     .site-nav .site-navigation .site-menu .has-children {
       position: relative; }
       .site-nav .site-navigation .site-menu .has-children > a {
@@ -9525,7 +9525,7 @@ textarea.form-control-lg {
   cursor: pointer;
   position: relative; }
   .burger.light:before, .burger.light span, .burger.light:after {
-    background: #fff; }
+    background: #00204A; }
 
 .burger:before, .burger span, .burger:after {
   width: 100%;
@@ -9653,7 +9653,7 @@ textarea {
   transform: translate(-50%, -50%); }
 
 .menu-bg-wrap {
-  background-color: #00204a;
+  background-color: #FFFFFF;
   padding: 20px 30px;
   position: relative;
   float: left;
